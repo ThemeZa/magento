@@ -28,22 +28,22 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Wed, 11 Feb 2015 12:12:20 +0000]]></date>
+            <date><![CDATA[Thu, 19 Feb 2015 10:10:23 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[si efchoiesrhvfoisHdfiuvgwhrjvbjshe ifhoisdvfhdt]]></key>
+            <key><![CDATA[128557582373524168522]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
             <db>
-                <table_prefix><![CDATA[mag]]></table_prefix>
+                <table_prefix><![CDATA[mag_]]></table_prefix>
             </db>
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[mysql]]></username>
                     <password><![CDATA[mysql]]></password>
-                    <dbname><![CDATA[magento]]></dbname>
+                    <dbname><![CDATA[mag_db]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
