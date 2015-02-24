@@ -1,7 +1,9 @@
 <?php   
 class Svitla_Iboughtit_Block_Index extends Mage_Core_Block_Template{   
 
-
+    public function isCustomer(){
+        return true;
+    }
 
 
 

@@ -9,7 +9,7 @@
         </reference>
         <reference name="content">
             <block type="iboughtit/checkout_success" name="iboughtit_checkout_success" template="svitla/iboughtit/success.phtml"/>
-            <!--<block type="iboughtit/index" name="iboughtit_index" template="svitla/iboughtit/index.phtml"/>-->
+            <block type="iboughtit/index" name="iboughtit_index" template="svitla/iboughtit/index.phtml"/>
         </reference>
     </iboughtit_index_index>
     <!-- Success page -->
